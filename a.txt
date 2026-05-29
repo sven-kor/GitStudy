@@ -5,4 +5,4 @@ Git commit -m "git"
 
 
 Git branch - > git branch확인
-Git
+Git branch develop -> develop branch생성
