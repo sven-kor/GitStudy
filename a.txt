@@ -2,6 +2,8 @@ hello World
 Git init
 Git add . 
 Git commit -m "git"
+Git log --oneline --graph --all
+Git reset --hard HEAD~n -> n단계 이전 커밋으로 이동(강제)
 
 
 Git branch - > git branch확인
@@ -9,14 +11,10 @@ Git branch develop -> develop branch생성
 Git checkout develop -> develop으로 branch 변경
 Git stash -> 현재 branch에서 작업한 것 임시저장 후 브랜치 변경하기 위함.
 Git stash pop 으로 변경사항 복구해야한다.
+Git merge main -> 현재 브랜치에 main브랜치 병합
+충돌 나면 수정해서 add. 후 commit하면됨. 
 
+git branch --no-merged  병합 안된 브랜치 확인
+git branch --merge 병합된 브랜치 확인
 
-//git merge commit 
-
-Develop change
-
-
-//merge commit 실습
-
-Main branch change
 
