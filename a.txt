@@ -6,3 +6,4 @@ Git commit -m "git"
 
 Git branch - > git branch확인
 Git branch develop -> develop branch생성
+Git checkout develop -> develop으로 branch 변경
