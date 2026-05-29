@@ -14,7 +14,11 @@ Git stash pop 으로 변경사항 복구해야한다.
 Git merge main -> 현재 브랜치에 main브랜치 병합
 충돌 나면 수정해서 add. 후 commit하면됨. 
 
+git push --set-upstream origin develop -> 로컬 브랜치 원격에 올리기
+
 git branch --no-merged  병합 안된 브랜치 확인
 git branch --merge 병합된 브랜치 확인
+Git branch -d develop 안전 삭제(병합된것만)
+Git branch -D develop 강제 삭제 (병합 안된 것도)
 
 
