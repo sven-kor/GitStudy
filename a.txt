@@ -7,3 +7,6 @@ Git commit -m "git"
 Git branch - > git branch확인
 Git branch develop -> develop branch생성
 Git checkout develop -> develop으로 branch 변경
+Git stash -> 현재 branch에서 작업한 것 임시저장 후 브랜치 변경하기 위함.
+Git stash pop 으로 변경사항 복구해야한다.
+
