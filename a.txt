@@ -1,1 +1,8 @@
 hello World
+Git init
+Git add . 
+Git commit -m "git"
+
+
+Git branch - > git branch확인
+Git
